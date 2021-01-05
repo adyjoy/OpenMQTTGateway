@@ -50,7 +50,7 @@
  */
 /*-------------DEFINE GATEWAY NAME BELOW IT CAN ALSO BE DEFINED IN platformio.ini----------------*/
 #ifndef Gateway_Name
-#  define Gateway_Name "OpenMQTTGateway"
+#  define Gateway_Name "OMG"
 #endif
 #ifndef Gateway_Short_Name
 #  define Gateway_Short_Name "OMG"
@@ -279,6 +279,7 @@ uint8_t wifiProtocol = 0; // default mode, automatic selection
 #ifndef ota_port
 #  define ota_port 8266
 #endif
+
 
 /*-------------DEFINE PINs FOR STATUS LEDs----------------*/
 #ifndef LED_RECEIVE
